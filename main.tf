@@ -1160,3 +1160,7 @@ resource "aws_default_vpc" "this" {
     var.default_vpc_tags,
   )
 }
+
+provider "aws" {
+  region = "us-west-1"
+}
